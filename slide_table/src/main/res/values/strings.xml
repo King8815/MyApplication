@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu">菜单</string>
+    <string name="weibo">微博</string>
+    <string name="comment">评论</string>
+    <string name="person">个人</string>
+    <string name="global">全球</string>
+
+    <string name="first_text">第一个界面</string>
+    <string name="sec_text">第二个界面</string>
+    <string name="thd_text">第三个界面</string>
+    <string name="fth_text">第四个界面</string>
+    <string name="fif_text">第五个界面</string>
+
+    <!--第一个界面-->
+    <string name="onekey_share">一键快捷分享</string>
+
+    <!--第二个界面-->
+    <string name="input_num">请输入11位手机号</string>
+    <string name="input_ver">输入验证码</string>
+    <string name="get_ver">获取验证码</string>
+    <string name="ver_resent">请在60秒内完成验证，超时请点击重新发送</string>
+    <string name="next">下一步</string>
+
+    <!--第五个界面-->
+    <string name="wave_title">测试</string>
+
+    <!--短信验证-->
+    <string name="get_ver_code_ok">获取验证码成功</string>
+    <string name="ver_ok">验证成功</string>
+    <string name="re_ver">验证失败,请重新验证</string>
+    <string name="null_phone_num">手机号为空</string>
+    <string name="input_correct_num">请输入正确的手机号</string>
+    <string name="ver_not_null">验证码不能为空</string>
+    <string name="language">语言</string>
+
+    <!--中英文切换-->
+    <string name="lang_switch">中英文切换</string>
+    <string name="ch">中文</string>
+    <string name="en">英文</string>
+
+    <!--确认/取消-->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!--网络请求故障-->
+    <string name="delay_load">300</string>
+    <string name="general_error">获取数据出现异常，请稍后再试</string>
+    <string name="general_server_down">网络不给力，请求超时</string>
+    <string name="general_no_internet">网络故障，请检查你的网络</string>
+    <string name="general_network_error">网络异常,请检查网络设置</string>
+    <string name="general_force_close">很抱歉,程序出现异常,即将退出!</string>
+    <string name="general_no_gallery_app">没有找到相应的程序执行该操作</string>
+    <string name="general_no_camera_app">没有程序执行拍照操作</string>
+    <string name="general_download_error">很抱歉，应用没有下载成功!</string>
+    <string name="general_code_error">数据异常</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/black"/>
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <!-- 文本框内，文本的顶端绘制图像，每一个radiobutton使用相同的style -->
+        <RadioButton
+            android:id="@+id/one_rb"
+            style="@style/tab_bottom_host"
+            android:drawableTop="@drawable/tab_one_selector"
+            android:text="@string/menu"/>
+
+        <RadioButton
+            android:id="@+id/two_rb"
+            style="@style/tab_bottom_host"
+            android:drawableTop="@drawable/tab_two_selector"
+            android:text="@string/weibo" />
+
+        <RadioButton
+            android:id="@+id/three_rb"
+            style="@style/tab_bottom_host"
+            android:drawableTop="@drawable/tab_three_selector"
+            android:text="@string/comment" />
+
+        <RadioButton
+            android:id="@+id/four_rb"
+            style="@style/tab_bottom_host"
+            android:drawableTop="@drawable/tab_four_selector"
+            android:text="@string/person" />
+
+        <RadioButton
+            android:id="@+id/five_rb"
+            style="@style/tab_bottom_host"
+            android:drawableTop="@drawable/tab_five_selector"
+            android:text="@string/global" />
+    </RadioGroup>
+</LinearLayout>

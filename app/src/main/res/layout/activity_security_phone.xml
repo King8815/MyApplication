@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".phonesafe.SecurityPhoneActivity">
+
+    <include layout="@layout/title" />
+
+    <!--当前相对布局中包含两个FrameLayout，用来显示有无黑名单，当这个两个布局切换时，
+        就是控制控制两个FrameLyout的显示与隐藏-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+        <!--代表无黑名单-->
+        <FrameLayout
+            android:id="@+id/no_blacknum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/no_blacknum_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/no_blacknumbericon" />
+
+                <TextView
+                    android:id="@+id/no_blacknum_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/no_blacknum_icon"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="您还没有添加黑名单!"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </FrameLayout>
+        <!--代表有黑名单-->
+        <FrameLayout
+            android:id="@+id/have_blacknum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/have_blacknum_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/cadetblue"
+                android:dividerHeight="1dp" />
+        </FrameLayout>
+    </RelativeLayout>
+    <!--按钮使用选择器，按下和松开时显示不同的颜色图片-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_addBlackNum"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/add_blacknum_btn_selector"
+            android:onClick="onclick"/>
+    </LinearLayout>
+</LinearLayout>

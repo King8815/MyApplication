@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/aquamarine"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speaker_welcome"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/aquamarine"
+        android:layout_gravity="center_horizontal" />-->
+
+    <Button
+        android:id="@+id/wifi_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="wifi搜索"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/antiquewhite" />
+
+    <ListView
+        android:id="@+id/wifi_list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:padding="10dp"
+        android:divider="@color/aqua"
+        android:dividerHeight="0.5dp" />
+
+    <Button
+        android:id="@+id/wifi_rescan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="重新扫描"
+        android:textSize="20sp" />
+
+</LinearLayout>

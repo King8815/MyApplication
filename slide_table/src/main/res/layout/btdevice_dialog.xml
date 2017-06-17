@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/aliceblue"
+        android:text="蓝牙设备"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/purple"/>
+
+    <ListView
+        android:id="@+id/bt_device_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:divider="@color/blue"
+        android:dividerHeight="0.5dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/bt_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:textColor="@color/aliceblue"
+        android:background="@color/purple"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"/>
+</LinearLayout>

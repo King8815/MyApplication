@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-Wechat-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b97a04213d77372e90bbd280ad2149a0623e4e0b">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-2.7.7_16b02cb9b489d2d145dd20ebedbe9e1987368907\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\MobCommons-2016.0830.1940.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca36dc249a46648f8c8f53ad5ee4a935e80956a8">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.0830.1940_7b0ef3bb87836ff4b72bc41ff476400a4a5e8e60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-Wechat-Favorite-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2dfc7d48951c61423eb6a536e68c36579ad61ec5">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Favorite-2.7.7_198bddcc85cd6a2a3e428a1858fffe1e0ed3357f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-SinaWeibo-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9d6f84355d4f6252240aebc751ba21eaea07e2dd">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.7.7_86d5163bef1dec7ceb756dcafcb6bf27ccd26ab3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\MobTools-2016.0830.1940.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="210bf77409df74387b9df1d7987de310a2e0b145">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.0830.1940_60bb8317211c41e7ef44e1393c9731c79dd68877\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-Wechat-Moments-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1029839bf5cfc4522366b1fc17eb30627fa5b431">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-2.7.7_cd6dcc68caa3dcbc845832fd60996500d4ba6e5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-QQ-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b1593b719931c6c1902ab80998b7fb5cf73e488">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.7.7_8309856ddb15b02be40a24738a619e7dd6f92bd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-Core-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b060c818956585ebc16be9c034ba4970e5552d25">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.7.7_2557f1f21bb3e6abc4649ff6777064d2e832d889\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\MobCommons-2016.0714.1402.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57eee6c3e8bab2ed4b9a585a7f590808d6518573">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.0714.1402_b5d0f07a96ec2288e5c7e99c9a1dde3cd2a261de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-TencentWeibo-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40eed754fe184a04a0adbe9157e8772a0ff301ef">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-TencentWeibo-2.7.7_5fca60eff1aeeed7597a9be8347d5d123142f43c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\MobTools-2016.0714.1402.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a583c5b1b67aa1f1b9dbbc658d9e0d185d89dd3">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.0714.1402_d0d12563febfaea93b36daf4b948add7332825c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-QZone-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="558713df8d3cc7543375e51e63a0638aeb0e2e9f">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QZone-2.7.7_1fb20bba32d6467aa29628397098e824d3697d9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7a4dde316a1c3d155b6d2f99fa34150749b6695">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9c78c4af7b69d4c5ddfb0959155553f4928be26e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9dd9788611b253853553f638265f569fd2104c72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyApplication\slide_table\libs\ShareSDK-Wechat-Core-2.7.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7942d022e2d3d8ed7ccbaf17df22da2eeddddfff">
+        <dex dex="F:\MyApplication\slide_table\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-2.7.7_ab6e9ca9816d977b60616dd43b5c28383b224dcc\classes.dex" />
+    </item>
+
+</items>

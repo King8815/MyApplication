@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 更改第一个radiobutton “微博” 的点击属性，进行切换图片 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 选中时的图片背景 -->
+    <item 
+        android:state_checked="true"
+        android:drawable="@drawable/tab_one_on"/>
+    <!-- 单击时的背景图片 -->
+    <item 
+        android:state_pressed="true"
+        android:drawable="@drawable/tab_one_on"/>
+    <!-- 默认时的背景图片 -->
+	<item 
+	    android:drawable="@drawable/tab_one_off"/>
+</selector>

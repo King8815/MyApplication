@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/setup_layout2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/purple">
+        <ImageView
+            android:id="@+id/sim_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/sim_setup"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIM卡绑定"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/cadetblue"
+            android:layout_below="@+id/sim_image"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sim_alert"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="0.6">
+
+            <TextView
+                android:layout_width="227dp"
+                android:layout_height="180dp"
+                android:text="@string/sim_info"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/cadetblue"
+                android:layout_marginRight="46dp"
+                android:layout_marginEnd="46dp"
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/sim_alert_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/operator_set_info_incon"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/textView"
+                android:layout_toStartOf="@+id/textView" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="绑定SIM卡"
+                android:id="@+id/sim_btn"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="onclick"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--添加依赖库swipemenulist-->
+   <!--<com.example.mylibrary.swipemenulistview.SwipeMenuListView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/swipemenu"
+       android:listSelector="#0213ff">
+   </com.example.mylibrary.swipemenulistview.SwipeMenuListView>-->
+    <!--<ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_language"/>-->
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/first_fragment_style"
+        android:text="@string/onekey_share"/>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/first_fragment_style"
+        android:text="@string/lang_switch"/>
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/first_fragment_style"
+        android:text="线程测试"/>
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/first_fragment_style"
+        android:text="Volley网络测试"/>
+    <Button
+        android:id="@+id/button5"
+        style="@style/first_fragment_style"
+        android:text="Gson解析" />
+    <Button
+        android:id="@+id/button6"
+        style="@style/first_fragment_style"
+        android:text="Bluetooth开发" />
+
+    <TextView
+        android:id="@+id/content1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/aquamarine"
+        android:text="@string/first_text"/>
+</LinearLayout>

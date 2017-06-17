@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bisque">
+    <!--View控件用来显示联系人及删除图标，TextView显示联系人姓名及拦截模式-->
+    <View
+        android:id="@+id/view_black_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:background="@mipmap/brightpurple_contact_icon"/>
+    <TextView
+        android:id="@+id/title_black_name"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:layout_alignTop="@+id/view_black_icon"
+        android:layout_toRightOf="@+id/view_black_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple"/>
+    <TextView
+        android:id="@+id/info_black_mode"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/view_black_icon"
+        android:layout_below="@+id/title_black_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple"/>
+    <View
+        android:id="@+id/view_black_delete"
+        android:layout_width="34dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/delete_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+</RelativeLayout>

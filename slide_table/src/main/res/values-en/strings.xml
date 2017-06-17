@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu">Menu</string>
+    <string name="weibo">Weibo</string>
+    <string name="comment">Comment</string>
+    <string name="person">Person</string>
+    <string name="global">Global</string>
+
+    <string name="first_text">First Fragment</string>
+    <string name="sec_text">Second Fragment</string>
+    <string name="thd_text">Third Fragment</string>
+    <string name="fth_text">Fourth Fragment</string>
+    <string name="fif_text">Fifth Fragment</string>
+
+    <!--first fragment-->
+    <string name="onekey_share">One Key Share</string>
+
+    <!--second fragment-->
+    <string name="input_num">Please input 11 numbers</string>
+    <string name="input_ver">Input verification code</string>
+    <string name="get_ver">Get verification code</string>
+    <string name="ver_resent">Please complete verification in 60s，or resent</string>
+    <string name="next">Next</string>
+
+    <!--SMS Verification-->
+    <string name="get_ver_code_ok">Get verification code success</string>
+    <string name="ver_ok">verification success</string>
+    <string name="re_ver">verification code fail, please re-verification.</string>
+    <string name="null_phone_num">Phone Num is null</string>
+    <string name="input_correct_num">Please input correct num.</string>
+    <string name="ver_not_null">verification code could not be null.</string>
+
+    <!--中英文切换-->
+    <string name="lang_switch">Language Switch</string>
+    <string name="ch">Chinese</string>
+    <string name="en">English</string>
+
+    <!--确认/取消-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

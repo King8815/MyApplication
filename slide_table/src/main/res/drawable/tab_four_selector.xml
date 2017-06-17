@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 更改第三个radiobutton “我的” 的点击属性，进行切换图片 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+	    android:state_checked="true"
+	    android:drawable="@drawable/tab_four_on"/>
+	<item 
+	    android:state_pressed="true"
+	    android:drawable="@drawable/tab_four_on"/>
+	<item 
+	    android:drawable="@drawable/tab_four_off"/>
+</selector>

@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 用来改变tab 底部的style -->
+    <style name="tab_bottom_host">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item><!-- 设置weight的目的就是把这个底部视图五等分 -->
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/tab_bottombar_itembg_selector</item>
+        <item name="android:textColor">@color/tab_bottombar_textcolor_selector</item>
+        <item name="android:button">@null</item>
+    </style>
+    <!--第一个fragment界面，button间的style-->
+    <style name="first_fragment_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <!--shareDialog style-->
+    <style name="shareDialog_style" parent="android:Theme.Dialog">
+        <!--标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!--wifi搜索Dialog style-->
+    <!-- 自定义提示框主题，密码输入提醒界面 -->
+    <style name="wifi_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

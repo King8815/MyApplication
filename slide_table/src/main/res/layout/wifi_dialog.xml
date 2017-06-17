@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="当前WI-FI列表"
+        android:gravity="center"
+        android:textColor="@color/aliceblue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/purple"
+        android:id="@+id/wifi_list" />
+    <ListView
+        android:id="@+id/list_wifi"
+        android:divider="@color/blue"
+        android:dividerHeight="0.5dp"
+        android:padding="10dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/wifi_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:textColor="@color/aliceblue"
+        android:background="@color/purple"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_black_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.phonesafe.AddBlackNumActivity">
+
+    <include layout="@layout/title"/>
+
+    <EditText
+        android:id="@+id/blackphone_edit"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/blackname_edit"
+        android:layout_centerHorizontal="true"
+        android:hint="请输入手机号码"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/blackname_edit"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/phone_intercept"
+        android:layout_alignLeft="@+id/blackphone_edit"
+        android:layout_alignStart="@+id/blackphone_edit"
+        android:layout_marginBottom="31dp"
+        android:hint="请输入联系人姓名"/>
+
+    <CheckBox
+        android:id="@+id/phone_intercept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="电话拦截"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/msg_intercept"
+        android:layout_alignLeft="@+id/add_black"
+        android:layout_alignStart="@+id/add_black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
+    <CheckBox
+        android:id="@+id/msg_intercept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="短信拦截"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/add_black"
+        android:layout_alignEnd="@+id/add_black"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp" />
+    <Button
+        android:id="@+id/add_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add_black"
+        android:onClick="onclick"
+        android:layout_above="@+id/add_from_contact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/add_from_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/add_fromcontact"
+        android:onClick="onclick"/>
+</RelativeLayout>
